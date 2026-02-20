@@ -1,0 +1,29 @@
+# Backend
+backend/node_modules/
+
+# Flutter / Dart
+finance_tracker/.dart_tool/
+finance_tracker/.flutter-plugins
+finance_tracker/.flutter-plugins-dependencies
+finance_tracker/build/
+finance_tracker/.packages
+finance_tracker/.pub-cache/
+finance_tracker/android/.gradle/
+finance_tracker/android/local.properties
+finance_tracker/android/key.properties
+
+# Generated files (keep pubspec.lock for reproducible builds)
+*.g.dart
+*.freezed.dart
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python scripts (dev tooling, not part of submission)
+generate_report.py

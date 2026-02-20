@@ -1,0 +1,33 @@
+name: finance_tracker
+description: Personal Finance Tracker — Flutter app for the take-home assessment.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management — Riverpod chosen for type-safety and clean separation
+  # of providers from the widget tree.
+  flutter_riverpod: ^2.5.1
+
+  # Navigation — GoRouter is the Flutter team's recommended declarative router.
+  go_router: ^14.2.0
+
+  # HTTP client — Dio gives us structured error objects, timeout handling,
+  # and interceptors in a clean API (vs the raw `http` package).
+  dio: ^5.4.3+1
+
+  # Date & currency formatting
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
